@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Илья - Frontend Developer</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="neural-loader"></div>
+            <span hidden>Загрузка нейро-интерфейса...</span>
+        </div>
+    </div>
+<div class="back">
+<img src="images/pngtree-cartoon-purple-smart-robot-free-illustration-image_1373894-Photoroom.png" alt="">
+</div>
+    <!-- Header / Navigation -->
+    <header class="cyber-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <span class="logo-text">&lt;?/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home"id="nav-home" class="nav-link">Главная</a></li>
+                <li><a href="#about" id="nav-about" class="nav-link">Обо мне</a></li>
+                <li><a href="#portal" id="nav-portal" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <button class="theme-btn">🌙</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <canvas id="particle-canvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="cyber-title">
+                    <span class="title-line">ПРИВЕТ, Я ИЛЬЯ</span>
+                    <span class="title-accent">FRONTEND DEVELOPER</span>
+                </h1>
+                <div class="hero-status">
+                    <div class="status-indicator">
+                        <span class="status-dot"></span>
+                       
+                    </div>
+                </div>
+                
+            </div>
+            <div class="hero-visual">
+                <div class="hologram-container">
+                    <div class="hologram-card">
+                        <!-- Будет 3D/голографический элемент -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2 class="section-title">МОИ ДАННЫЕ</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <div class="bio-card">
+                    <h3>Кто за интерфейсом?</h3>
+                    <p>Я начинающий фронтенд-разработчик, currently на уровне junior. Учусь в колледже и параллельно осваиваю современные веб-технологии самостоятельно.</p>
+                    <p>Мой путь в разработке только начинается, но я уже уверенно владею базовым стеком и активно расширяю свои навыки.</p>
+                </div>
+                <div class="current-focus">
+                    <h4>Текущий фокус:</h4>
+                    <ul class="focus-list">
+                        <li>Глубокое изучение JavaScript</li>
+                        <li>Освоение React ecosystem</li>
+                        <li>Сборщики проектов (Webpack/Vite)</li>
+                        <li>Современный CSS и анимации</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about-visual">
+                
+                <div class="data-visualization">
+                    <h3>ТЕХНО-СТЕК</h3>
+                    <p> <br>HTML5<br>CSS3<br>JavaScript<br>Bootstrap<br>React</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+   <!-- Search Portal Section -->
+<section id="portal" class="portal-section">
+    <div class="section-header">
+        <h2 class="section-title">написать специалисту ?</h2>
+        <div class="section-line"></div>
+    </div>
+
+    <div class="portal-container">
+        <div class="search-interface">
+            <div class="search-box">
+                <div class="search-input-container">
+                    <input type="text" class="search-input" id="portal-search" placeholder=" " readonly>
+                    <div class="typing-text" id="typing-text"></div>
+                    <div class="cursor"></div>
+                </div>
+                <button class="search-btn" id="portal-btn">
+                    <span class="btn-text">написать </span>
+                    <div class="btn-loader"></div>
+                </button>
+            </div>
+            <div class="search-hint">
+                <span class="hint-text">узнать гитхаб специалиста ...</span>
+            </div>
+        </div>
+
+        <!-- Portal Animation Overlay -->
+        <div class="portal-overlay" id="portal-overlay">
+            <div class="wormhole">
+                <div class="wormhole-inner">
+                    <div class="energy-ring"></div>
+                    <div class="energy-ring ring-2"></div>
+                    <div class="energy-ring ring-3"></div>
+                    <div class="portal-core"></div>
+                </div>
+            </div>
+            <div class="jump-text">
+               
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Contact Section -->
+    <section hidden id="contact" class="contact-section">
+        <div class="section-header">
+            <h2 class="section-title">УСТАНОВИТЬ СВЯЗЬ</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+               
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-image"></div>
+                        <div class="contact-details">
+                            <span>Email</span>
+                            <a href="mailto:your-email@example.com">your-email@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-image"></div>
+                        <div class="contact-details">
+                            <span>GitHub</span>
+                            <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-image"></div>
+                        <div class="contact-details">
+                            <span>Telegram</span>
+                            <a href="https://t.me/yourusername" target="_blank">@yourusername</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+                  
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cyber-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>&lt;?/&gt;</span>
+            </div>
+            <div class="footer-links">
+                <a href="#home" id="homeup">Наверх</a>
+                <a href="#about" id="aboutup">Обо мне</a>
+               
+            </div>
+            <div class="box">
+ 
+</div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
